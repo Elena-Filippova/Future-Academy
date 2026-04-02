@@ -1,0 +1,89 @@
+.hero {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/hero-bg.webp');
+}
+
+.heroWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.leftBlock {
+  padding: 126px 87px 175px 370px;
+  background-size: 1014px 442px;
+  background-repeat: no-repeat;
+  background-position: top 19px left;
+  background-image: url('/points.svg');
+  background-color: var(--dark-blue);
+}
+
+.subTitle {
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--white);
+}
+
+.title {
+  margin-bottom: 41px;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--white);
+}
+
+.descr {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--white);
+}
+
+.crossIcon {
+  position: absolute;
+  top: 73px;
+  left: 202px;
+}
+
+.triangleIcon {
+  position: absolute;
+  bottom: 58px;
+  left: 642px;
+}
+
+.circleIcon {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+}
+
+.line1Icon {
+  position: absolute;
+  left: 159px;
+  bottom: -10px;
+}
+
+.line2Icon {
+  position: absolute;
+  left: 810px;
+  top: 229px;
+}
+
+.crossSmallIcon {
+  position: absolute;
+  top: 112px;
+  right: 390px;
+}
+
+.line3Icon {
+  position: absolute;
+  right: 260px;
+  bottom: -40px;
+}
+
+.line4Icon {
+  position: absolute;
+  top: 123px;
+  right: 689px;
+}

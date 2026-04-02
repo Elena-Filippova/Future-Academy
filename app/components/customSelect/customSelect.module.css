@@ -1,0 +1,36 @@
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selectedText {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--black);
+}
+
+.selectList {
+  position: absolute;
+  top: 88px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 226px;
+  height: 140px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 #00000099;
+  background-color: #f6f7f9;
+}
+
+.selectListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}

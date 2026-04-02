@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/MontserratMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/MontserratRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/MontserratBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  src: url('./assets/fonts/FontAwesome5BrandsRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/MontserratSemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/RobotoRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --light-black: #333333;
+  --orange: #f7941d;
+  --blue: #27aae1;
+  --dark-blue: #00093c;
+
+  --font-family: 'Montserrat', system-ui;
+  --second-family: 'Font Awesome 5 Brands', system-ui;
+  --third-family: 'Roboto', system-ui;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: var(--font-family);
+  background-color: var(--white);
+}
+
+a {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p, h1 {
+  margin: 0;
+}
