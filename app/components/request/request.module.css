@@ -1,0 +1,104 @@
+.request {
+  position: absolute;
+  width: 100%;
+  bottom: -40px;
+  left: 0;
+}
+
+.requestContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.requestWrapper {
+  padding: 40px 40px 40px 232px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: var(--white);
+}
+
+.requestDescr {
+  padding: 22px 16px 16px 49px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/request/dialog.svg');
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--black);
+}
+
+.description {
+  max-width: 352px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 163%;
+  color: var(--black);
+}
+
+.requestImage {
+  position: absolute;
+  top: 24px;
+  left: -50px;
+}
+
+.requestForm {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(210px, auto));
+  grid-template-rows: repeat(3, minmax(50px, auto));
+  gap: 20px;
+  max-width: 440px;
+}
+
+.requestFormInput {
+  padding: 16px 19px;
+  border-radius: 6px;
+  background-color: var(--bg-input);
+  color: var(--grey);
+}
+
+.inputName {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.inputPhone {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.inputEmail {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.requestFormText {
+  grid-column: 1;
+  grid-row: 3;
+  font-size: 10px;
+  line-height: 140%;
+  color: var(--grey);
+}
+
+.requestFormBtn {
+  padding: 12px 56px;
+  grid-column: 2;
+  grid-row: 3;
+  font-weight: 700;
+  line-height: 186%;
+  text-align: center;
+  border-radius: 6px;
+  background-color: var(--orange);
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.requestFormBtn:hover {
+  background-color: var(--hover-orange);
+}

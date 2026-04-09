@@ -1,0 +1,138 @@
+.coursesContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.coursesWrapper {
+  padding: 100px 0 82px 0;
+}
+
+.firstBlock {
+  position: relative;
+  margin-bottom: 215px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.imageBlock {
+  min-width: 260px;
+}
+
+.imageBlockDescr {
+  padding: 20px 0 68px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 240px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/courses/dialog.svg');
+}
+
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black);
+}
+
+.textBold {
+  font-weight: 600;
+}
+
+.imageBlockIcon {
+  position: absolute;
+  top: 145px;
+  left: -45px;
+}
+
+.buttonsBlockBottom {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 17px;
+}
+
+.coursesList {
+  padding-bottom: 15px;
+  margin-bottom: 38px;
+  display: flex;
+  align-items: center;
+  gap: 160px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.coursesListLink {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.linkDescr {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.linkDescrTitle {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--black);
+}
+
+.linkDescrText {
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.secondBlock {
+  margin-bottom: 116px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdBlock {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.thirdBlockDescr {
+  max-width: 780px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 142%;
+  color: var(--black);
+}
+
+.thirdBlockList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 122px;
+  row-gap: 50px;
+}
+
+.blockListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.numberText {
+  font-weight: 700;
+  font-size: 86px;
+  letter-spacing: 0.1em;
+  color: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+}
+
+.descrText {
+  max-width: 250px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  color: var(--black);
+}

@@ -12,7 +12,7 @@ export default function Header() {
         <div className={styles.headerWrapper}>
           <Link href='/'>
             <Image 
-              src='/logo.svg'
+              src='/header/logo.svg'
               width={100}
               height={70.65}
               alt='Логотип'
@@ -26,10 +26,10 @@ export default function Header() {
                   className={styles.navListItemLilk}
                 >
                   <Image
-                    src='/all-course.svg'
+                    src='/header/all-course.svg'
                     width={20}
                     height={15.97}
-                    alt=''
+                    alt='Блоки'
                   />
                   Все курсы
                 </Link>
@@ -72,7 +72,7 @@ export default function Header() {
             className={styles.user}
           >
             <Image
-              src='/user.svg'
+              src='/header/user.svg'
               width={17.28}
               height={18.32}
               alt='Пользователь'

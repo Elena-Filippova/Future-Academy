@@ -1,0 +1,36 @@
+.welcomeContainer {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.welcomeWrapper {
+  padding: 85px 0 360px 0;
+}
+
+.welcomeTitle {
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 94%;
+  color: var(--black);
+}
+
+.welcomeList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.welcomeListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: calc((100% - 60px) / 4);
+}
+
+.itemDescr {
+  max-width: 210px;
+}

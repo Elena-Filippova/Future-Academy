@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import styles from './hero.module.css'
 
@@ -22,56 +24,56 @@ export default function Hero() {
         </div>
       </div>
       <Image
-        src='/cross.svg'
+        src='/hero/cross.svg'
         width={130.15}
         height={130}
         alt='Крестик'
         className={styles.crossIcon}
       />
       <Image
-        src='/triangle.svg'
+        src='/hero/triangle.svg'
         width={98.39}
         height={81.73}
         alt='Треугольник'
         className={styles.triangleIcon}
       />
       <Image
-        src='/circle.svg'
+        src='/hero/circle.svg'
         width={120}
         height={120}
         alt='Круг'
         className={styles.circleIcon}
       />
       <Image
-        src='/line-1.svg'
+        src='/hero/line-1.svg'
         width={338.08}
         height={131.43}
         alt='Линия'
         className={styles.line1Icon}
       />
       <Image
-        src='/line-2.svg'
+        src='/hero/line-2.svg'
         width={309.38}
         height={0}
         alt='Линия'
         className={styles.line2Icon}
       />
       <Image
-        src='/cross-small.svg'
+        src='/hero/cross-small.svg'
         width={84.83}
         height={84.74}
         alt='Крестик'
         className={styles.crossSmallIcon}
       />
       <Image
-        src='/line-3.svg'
+        src='/hero/line-3.svg'
         width={126.59}
         height={266.59}
         alt='Линия'
         className={styles.line3Icon}
       />
       <Image
-        src='/line-4.svg'
+        src='/hero/line-4.svg'
         width={71.27}
         height={79.11}
         alt='Линия'

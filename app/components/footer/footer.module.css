@@ -1,0 +1,102 @@
+.footer {
+  background-color: var(--dark-blue);
+}
+
+.footerContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.footerWrapper {
+  padding: 70px 0 56px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftBlock a {
+  transition: var(--transition);
+}
+
+.leftBlock a:hover {
+  color: var(--hover-orange);
+}
+
+.leftBlockLogo {
+  margin-bottom: 43px;
+}
+
+.address {
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.addressPhone {
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 144%;
+  color: var(--white);
+}
+
+.addressText,
+.addressMail {
+  font-weight: 500;
+  font-style: normal;
+  line-height: 186%;
+  color: var(--white);
+}
+
+.socialList {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.copy {
+  font-size: 12px;
+  color: #bdbdbd;
+}
+
+.rightBlock {
+  display: flex;
+  gap: 60px;
+}
+
+.listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.listBoxTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 163%;
+  color: var(--white);
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerList a {
+  line-height: 243%;
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.footerList a:hover {
+  color: var(--hover-orange);
+}

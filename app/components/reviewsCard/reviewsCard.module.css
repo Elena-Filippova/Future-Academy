@@ -1,0 +1,54 @@
+.card {
+  max-width: 280px;
+  border-radius: 20px;
+  background-color: var(--white);  
+}
+
+.cardWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.person {
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.personInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.personName {
+  font-weight: 700;
+  color: var(--black);
+}
+
+.personInfo {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.descr {
+  margin-bottom: 22px;
+  font-weight: 500;
+  line-height: 157%;
+  color: var(--black);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ratingText {
+  font-weight: 500;
+  line-height: 157%;
+  color: var(--grey);
+}

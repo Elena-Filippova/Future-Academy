@@ -1,0 +1,12 @@
+.swiper-scrollbar {
+  width: 1180px;
+  height: 4px;
+  background-color: var(--white);
+}
+
+.swiper-scrollbar-drag {
+  width: 380px;
+  height: 4px;
+  background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+  border-radius: 2px;
+}

@@ -1,0 +1,191 @@
+.invitation {
+  margin-bottom: 100px;
+}
+
+.invitationContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.cardsList {
+  display: grid;
+  grid-template-columns: minmax(480px, auto) minmax(330px, auto) minmax(330px, auto);
+  grid-template-rows: minmax(160px, auto) minmax(220px, auto) minmax(220px, auto);
+  gap: 20px;
+}
+
+.cardsListItem {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.card1 {
+  padding: 28px 40px 23px 40px;
+  justify-content: space-between;
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  background-color: var(--light-orange);
+}
+
+.card1Date {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateBold {
+  font-weight: 700;
+  font-size: 86px;
+}
+
+.dateRegular {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.card1Descr {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  max-width: 540px;
+}
+
+.card1Title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 72%;
+  color: var(--black);
+}
+
+.card1Subtitle {
+  font-size: 18px;
+  line-height: 144%;
+  color: var(--light-black);
+}
+
+.card1Btn,
+.card2Btn {
+  padding: 17px 61px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  outline: 2px solid var(--black);
+  transition: var(--transition);
+}
+
+.card1Btn:hover {
+  background-color: var(--black);
+}
+
+.card1Btn span,
+.card2Btn span {
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 186%;
+  color: var(--black);
+  transition: var(--transition);
+}
+
+.card1Btn:hover span,
+.card2Btn:hover span {
+  color: var(--white);
+}
+
+.card1Btn svg {
+  stroke: var(--black);
+  transition: var(--transition);
+}
+
+.card1Btn:hover svg,
+.card2Btn:hover svg {
+  stroke: var(--white);
+}
+
+.card2 {
+  padding: 34px 40px 50px 40px;
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  flex-direction: column;
+  background-color: var(--light-blue);
+}
+
+.card2 img {
+  margin-bottom: 37px;
+}
+
+.card2Btn {
+  outline: 2px solid var(--dark-blue);
+}
+
+.card2Btn:hover {
+  outline: 2px solid var(--blue);
+  background-color: var(--blue);
+}
+
+.card2Btn span {
+  color: var(--dark-blue);
+}
+
+.card2Btn svg {
+  stroke: var(--dark-blue);
+  transition: var(--transition);
+}
+
+.cardTitle {
+  margin-bottom: 41px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 108%;
+  text-align: center;
+  color: var(--black);
+}
+
+.cardSubtitle {
+  margin-bottom: 49px;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--light-black);
+}
+
+.card3 {
+  padding: 34px 20px 46px 20px;
+  grid-column: 2;
+  grid-row: 2;
+  flex-direction: column;
+  gap: 46px;
+  background-color: var(--light-green);
+}
+
+.card4 {
+  padding: 34px 20px 46px 20px;
+  grid-column: 3;
+  grid-row: 2;
+  flex-direction: column;
+  gap: 46px;
+  background-color: var(--light-pink);
+}
+
+.card5 {
+  padding: 58px 80px 58px 50px;
+  grid-column: 2 / span 2;
+  grid-row: 3;
+  flex-direction: row;
+  gap: 52px;
+  background-color: var(--light-yellow);
+}
+
+.card5Descr {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+.card3 .cardTitle,
+.card4 .cardTitle,
+.card5 .cardTitle {
+  margin-bottom: 0;
+}

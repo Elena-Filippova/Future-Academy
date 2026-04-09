@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/hero-bg.webp');
+  background-image: url('/hero/hero-bg.webp');
 }
 
 .heroWrapper {
@@ -16,7 +16,7 @@
   background-size: 1014px 442px;
   background-repeat: no-repeat;
   background-position: top 19px left;
-  background-image: url('/points.svg');
+  background-image: url('/hero/points.svg');
   background-color: var(--dark-blue);
 }
 

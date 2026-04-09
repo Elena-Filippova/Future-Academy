@@ -1,0 +1,47 @@
+.reviewsContainer {
+  position: relative;
+  padding: 62px 0;
+  background-size: 100%;
+  background-position: top 16px left 0 ;
+  background-repeat: no-repeat;
+  background-image: url('/reviews/points.svg');
+  background-color: var(--dark-blue);
+}
+
+.reviewsTitle {
+  margin-bottom: 44px;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--white);
+}
+
+.line1Icon {
+  position: absolute;
+  left: 0;
+  bottom: 53px;
+}
+
+.crossIcon {
+  position: absolute;
+  top: 50px;
+  left: 292px;
+}
+
+.triangleIcon {
+  position: absolute;
+  bottom: 142px; 
+  left: 930px;
+}
+
+.line2Icon {
+  position: absolute;
+  top: -10px;
+  right: 302px;
+}
+
+.circleIcon {
+  position: absolute;
+  bottom: 71px;
+  right: 289px;
+}

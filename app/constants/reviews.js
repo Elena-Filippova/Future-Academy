@@ -1,0 +1,68 @@
+const reviewsArray = [
+  {
+    id: 0,
+    image: '/reviews/rev-1.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales.',
+    rating: '4.87 / 5',
+  },
+  {
+    id: 1,
+    image: '/reviews/rev-2.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.',
+    rating: '4.87 / 5',
+  },
+  {
+    id: 2,
+    image: '/reviews/rev-3.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna.',
+    rating: '4.87 / 5',
+  },
+  {
+    id: 3,
+    image: '/reviews/rev-3.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat!',
+    rating: '4.87 / 5',
+  },
+  {
+    id: 4,
+    image: '/reviews/rev-5.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales.',
+    rating: '4.87 / 5',
+  },
+  {
+    id: 5,
+    image: '/reviews/rev-6.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.',
+    rating: '4.87 / 5',
+  },
+  {
+    id: 6,
+    image: '/reviews/rev-6.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat!',
+    rating: '4.87 / 5',
+  },
+  {
+    id: 7,
+    image: '/reviews/rev-6.png',
+    name: 'Имя Фамилия',
+    position: 'Студент курса "WEB-разработчик"',
+    text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat!',
+    rating: '4.87 / 5',
+  },
+]
+
+export default reviewsArray

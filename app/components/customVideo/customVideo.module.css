@@ -1,0 +1,24 @@
+.videoWrapper {
+  position: relative;
+  width: 780px;
+}
+
+.video {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  background: var(--dark-blue);
+  opacity: 0.6;
+  z-index: 5;
+}
+
+.videoBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}

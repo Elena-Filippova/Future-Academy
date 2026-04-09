@@ -23,7 +23,7 @@ export default function CustomSelect() {
     <div className={styles.selectBlock}>
       <button onClick={() => setIsOpen(!isOpen)} className={styles.select}>
         <Image 
-          src='/location.svg' 
+          src='/header/location.svg' 
           width={17} 
           height={20} 
           alt='Локация'
