@@ -58,15 +58,26 @@ html {
 
 :root {
   --white: #ffffff;
+  --dark-white: #f6f7f9;
   --black: #000000;
   --light-black: #333333;
   --orange: #f7941d;
+  --light-orange: #f7bc75;
+  --hover-orange: #ffae4d;
   --blue: #27aae1;
+  --light-blue: #c5ddff;
   --dark-blue: #00093c;
+  --grey: #4f4f4f;
+  --light-green: #b8efcf;
+  --light-pink: #ffeef6;
+  --light-yellow: #ffe38e;
+  --bg-input: #00093c1a;
 
   --font-family: 'Montserrat', system-ui;
   --second-family: 'Font Awesome 5 Brands', system-ui;
   --third-family: 'Roboto', system-ui;
+
+  --transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -75,7 +86,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   font-family: var(--font-family);
-  background-color: var(--white);
+  background-color: var(--dark-white);
 }
 
 a {
@@ -113,6 +124,6 @@ ol {
   list-style: none;
 }
 
-p, h1 {
+p, h1, h2, h3, h4 {
   margin: 0;
 }
