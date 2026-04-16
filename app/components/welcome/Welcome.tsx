@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Request from '../request/Request'
 import styles from './welcome.module.css'
 
 export default function Welcome() {
@@ -58,7 +57,6 @@ export default function Welcome() {
             </li>
           </ul>
         </div>
-        <Request />
       </div>
     </section>
   )

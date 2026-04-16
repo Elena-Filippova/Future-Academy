@@ -53,38 +53,6 @@
   row-gap: 17px;
 }
 
-.coursesList {
-  padding-bottom: 15px;
-  margin-bottom: 38px;
-  display: flex;
-  align-items: center;
-  gap: 160px;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.coursesListLink {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.linkDescr {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.linkDescrTitle {
-  font-weight: 700;
-  font-size: 16px;
-  color: var(--black);
-}
-
-.linkDescrText {
-  font-size: 12px;
-  color: var(--grey);
-}
-
 .secondBlock {
   margin-bottom: 116px;
   position: relative;

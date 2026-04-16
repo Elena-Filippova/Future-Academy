@@ -22,7 +22,7 @@ export default function Header() {
             <ul className={styles.navList}>
               <li className={styles.navListItem}>
                 <Link 
-                  href='#'
+                  href='/pages/programs-page'
                   className={styles.navListItemLilk}
                 >
                   <Image
@@ -36,7 +36,7 @@ export default function Header() {
               </li>
               <li className={styles.navListItem}>
                 <Link 
-                  href='#'
+                  href='/pages/events-page'
                   className={styles.navListItemLilk}
                 >
                   Мероприятия

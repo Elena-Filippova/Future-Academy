@@ -1,0 +1,55 @@
+.card {
+  position: relative;
+}
+
+.cardWrapper {
+  padding: 28px 30px 38px;
+}
+
+.cardSubtitle {
+  margin-bottom: 17px;
+  display: inline-block;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.cardTitleBlock {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardTitle {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--dark-blue);
+}
+
+.cardDescr {
+  margin-bottom: 26px;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--grey);
+}
+
+.cardDuration {
+  font-size: 12px;
+  color: var(--black);
+}
+
+.cardDiscount {
+  padding: 7px 0 8px 0;
+  position: absolute;
+  display: block;
+  right: -10px;
+  bottom: 30px;
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: var(--red);
+  color: var(--white);
+}

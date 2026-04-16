@@ -1,14 +1,11 @@
-.request {
-  position: absolute;
-  width: 100%;
-  bottom: -40px;
-  left: 0;
-}
-
 .requestContainer {
+  position: absolute;
   margin: 0 auto;
   padding: 0 50px;
-  max-width: 1280px;
+  max-width: 1280px;  
+  width: 100%;
+  top: -230px;
+  left: 0;
 }
 
 .requestWrapper {
@@ -60,7 +57,20 @@
   padding: 16px 19px;
   border-radius: 6px;
   background-color: var(--bg-input);
+  color: var(--dark-blue);
+  transition: var(--transition);
+}
+
+.requestFormInput::placeholder {
   color: var(--grey);
+}
+
+.requestFormInput:hover {
+  background-color: #eaebf0;
+}
+
+.requestFormInput:active {
+  background-color: #eaebf0;
 }
 
 .inputName {

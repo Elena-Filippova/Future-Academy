@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Request from '../request/Request'
 import styles from './footer.module.css'
 
 export default function Footer() {
@@ -7,6 +8,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
         <div className={styles.footerWrapper}>
+          <Request />
           <div className={styles.leftBlock}>
             <Link href='/' className={styles.leftBlockLogo}>
               <Image
