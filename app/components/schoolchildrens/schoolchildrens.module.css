@@ -1,0 +1,25 @@
+.schoolContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.schoolWrapper {
+  padding: 84px 0 10px 0;
+}
+
+.schoolTitle {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 94%;
+  color: var(--black);
+}
+
+.schoolDescr {
+  margin-bottom: 27px;
+  max-width: 979px;
+  font-size: 18px;
+  line-height: 144%;
+  color: var(--black);
+}

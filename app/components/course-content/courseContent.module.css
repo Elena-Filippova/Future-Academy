@@ -1,0 +1,116 @@
+.courseContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.courseWrapper {
+  padding: 76px 0 72px;
+  position: relative;
+}
+
+.courseTitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 94%;
+  color: var(--black);
+}
+
+.courseDescription {
+  margin-bottom: 35px;
+  max-width: 979px;
+  font-size: 18px;
+  line-height: 144%;
+  color: var(--black);
+}
+
+.courseBox {
+  position: relative;
+  display: flex;
+  gap: 199px;
+}
+
+.courseBlock {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.courseBlockText {
+  padding-top: 7px;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid var(--orange);
+}
+
+.courseBlockText span {
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+
+.courseBlockDialog {
+  padding: 39px 55px 71px 22px;
+  font-weight: 500;
+  font-size: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/chess/course/dialog.svg');
+  color: var(--black);
+}
+
+.courseBlockImage {
+  position: absolute;
+  bottom: -140px;
+  right: -13px;
+}
+
+.coursePrice {
+  margin-bottom: 44px;
+  padding-top: 7px;
+  max-width: 291px;
+  font-weight: 700;
+  font-size: 28px;
+  border-top: 2px solid var(--orange);
+  color: var(--dark-blue);
+}
+
+.courseBtn {
+  padding: 12px 21px;
+  font-weight: 700;
+  line-height: 186%;
+  text-align: center;
+  border-radius: 6px;
+  background-color: var(--orange);
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.courseBtn:hover {
+  background-color: var(--hover-orange);
+}
+
+.chess1Icon {
+  position: absolute;
+  top: 58px;
+  right: 200px;
+}
+
+.chess2Icon {
+  position: absolute;
+  top: 58px;
+  right: 150px;
+}
+
+.chess3Icon {
+  position: absolute;
+  top: 170px;
+  right: 150px;
+}
+
+.chess4Icon {
+  position: absolute;
+  top: 170px;
+  right: 80px;
+}

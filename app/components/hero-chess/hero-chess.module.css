@@ -1,0 +1,144 @@
+.hero {
+  position: relative;
+  background-color: var(--dark-blue);
+}
+
+.heroContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.heroWrapper {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+
+.heroLeft {
+  padding: 39px 0 30px 0;
+}
+
+.heroTitle {
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 42px;
+  color: var(--white);
+}
+
+.heroDescr {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--white);
+}
+
+.heroTextBlock {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.text {
+  padding-top: 7px;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid var(--blue);
+}
+
+.heroTextBlock span {
+  font-weight: 500;
+  color: var(--white);
+}
+
+.heroPrice,
+.heroText {
+  margin-bottom: 33px;
+  padding-top: 7px;
+  max-width: 330px;
+  font-weight: 700;
+  font-size: 28px;
+  border-top: 2px solid var(--blue);
+  color: var(--white);
+}
+
+.heroText {
+  margin-bottom: 12px;
+  border-top: none;
+}
+
+.heroTextInvite {
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: var(--white);
+}
+
+.heroBtn {
+  padding: 12px 20px;
+  font-weight: 700;
+  line-height: 186%;
+  text-align: center;
+  border-radius: 6px;
+  background-color: var(--orange);
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.heroBtn:hover {
+  background-color: var(--hover-orange);
+}
+
+.horseIcon {
+  position: absolute;
+  top: 26px;
+  left: 233px;
+}
+
+.line1Icon {
+  position: absolute;
+  bottom: -50px;
+  left: 115px;
+}
+
+.line2Icon {
+  position: absolute;
+  bottom: -40px;
+  left: 625px;
+}
+
+.line3Icon {
+  position: absolute;
+  bottom: 44%;
+  left: 42%;
+}
+
+.circleIcon {
+  position: absolute;
+  bottom: 42px;
+  right: 722px;
+}
+
+.triangleIcon {
+  position: absolute;
+  top: 24px;
+  right: 740px;
+}
+
+.crossIcon {
+  position: absolute;
+  top: 161px;
+  right: 432px;
+}
+
+.triangleBigIcon {
+  position: absolute;
+  top: 45px;
+  right: 122px;
+}
+
+.line4Icon {
+  position: absolute;
+  bottom: -32px;
+  right: 85px;
+}

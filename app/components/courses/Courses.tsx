@@ -7,7 +7,6 @@ import CustomVideo from '../customVideo/CustomVideo'
 import CoursesList from '../coursesList/CoursesList'
 
 export default function Courses() {
-
   const buttons = [
     'Робототехника', 
     'Создание игр', 
@@ -36,10 +35,10 @@ export default function Courses() {
                 <p className={styles.text}>Удачи!</p>
               </div>
               <Image
-                src="/courses/owl.svg"
+                src='/courses/owl.svg'
                 width={168}
                 height={188.05}
-                alt="Сова"
+                alt='Сова'
                 className={styles.imageBlockIcon}
               />
             </div>
@@ -47,7 +46,12 @@ export default function Courses() {
               <CoursesList />
               <div className={styles.buttonsBlockBottom}>
                 {buttons.map((text, index) => {
-                  return <CoursesButton key={index}>{text}</CoursesButton>
+                  const link = text === 'Шахматы' ? '/pages/chess-page' : '#'
+                  return (
+                    <CoursesButton key={index} href={link}>
+                      {text}
+                    </CoursesButton>
+                  )
                 })}
               </div>
             </div>
@@ -57,33 +61,22 @@ export default function Courses() {
           </div>
           <div className={styles.thirdBlock}>
             <p className={styles.thirdBlockDescr}>
-                Актуальные знания для от признанных экспертов рынка для новичков и практикующих специалистов.
+              Актуальные знания для от признанных экспертов рынка для новичков и
+              практикующих специалистов.
             </p>
             <ul className={styles.thirdBlockList}>
-                <li className={styles.blockListItem}>
-                  <span className={styles.numberText}>
-                    600
-                  </span>
-                  <span className={styles.descrText}>
-                    Курсов
-                  </span>
-                </li>
-                <li className={styles.blockListItem}>
-                  <span className={styles.numberText}>
-                    82
-                  </span>
-                  <span className={styles.descrText}>
-                    Ведущих преподавателей
-                  </span>
-                </li>
-                <li className={styles.blockListItem}>
-                  <span className={styles.numberText}>
-                    14 795
-                  </span>
-                  <span className={styles.descrText}>
-                    Выпускников
-                  </span>
-                </li>
+              <li className={styles.blockListItem}>
+                <span className={styles.numberText}>600</span>
+                <span className={styles.descrText}>Курсов</span>
+              </li>
+              <li className={styles.blockListItem}>
+                <span className={styles.numberText}>82</span>
+                <span className={styles.descrText}>Ведущих преподавателей</span>
+              </li>
+              <li className={styles.blockListItem}>
+                <span className={styles.numberText}>14 795</span>
+                <span className={styles.descrText}>Выпускников</span>
+              </li>
             </ul>
           </div>
         </div>

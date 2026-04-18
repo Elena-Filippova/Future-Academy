@@ -13,8 +13,7 @@ export default function SwiperReviews() {
     <Swiper
       modules={[Scrollbar, A11y]}
       spaceBetween={20}
-      slidesPerView={6}
-      
+      slidesPerView={6}  
     >
       {reviewsArray.map((review) => (
         <SwiperSlide key={review.id}>

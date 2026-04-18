@@ -665,7 +665,8 @@ export default function AllPrograms() {
               <h2 className={styles.blockTitle}>Направление</h2>
               <div className={styles.blockButtons}>
                 {buttons.map((text, index) => {
-                  return <CoursesButton key={index}>{text}</CoursesButton>
+                  const link = text === 'Шахматы' ? '/pages/chess-page' : '#'
+                  return <CoursesButton key={index} href={link}>{text}</CoursesButton>
                 })}
               </div>
               <ul className={styles.cardList}>

@@ -1,0 +1,132 @@
+.infoContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.infoWrapper {
+  padding: 100px 0 66px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoTop {
+  margin-bottom: 142px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.infoTopText {
+  padding: 30px 20px 69px 20px;
+  max-width: 310px;
+  font-weight: 500;
+  font-size: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/chess/info/dialog.svg');
+  color: var(--black);
+}
+
+.infoTopImage {
+  position: absolute;
+  top: 105px;
+  left: -50px;
+}
+
+.infoTopList,
+.infoBottomList {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.listItem,
+.listBottomItem {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: calc((780px - 60px) / 4);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: top left;
+}
+
+.listItemTitle {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--black);
+}
+
+.listItemDescr {
+  color: var(--black);
+}
+
+.item1 {
+  background-image: url('/chess/info/chess-1.svg');
+}
+
+.item2 {
+  background-image: url('/chess/info/chess-2.svg');
+}
+
+.item3 {
+  background-image: url('/chess/info/chess-3.svg');
+}
+
+.item4 {
+  background-image: url('/chess/info/chess-4.svg');
+}
+
+.infoCenter {
+  margin-bottom: 68px;
+}
+
+.infoBottomTitle {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 94%;
+  color: var(--black);
+}
+
+.infoBottomDescr {
+  margin-bottom: 20px;
+  max-width: 923px;
+  font-size: 18px;
+  line-height: 144%;
+  color: var(--black);
+}
+
+.listBottomItem {
+  width: calc((100% - 100px) / 6);
+}
+
+.itemBottom1 {
+  background-image: url('/chess/info/chess-4.svg');
+}
+
+.itemBottom2 {
+  background-image: url('/chess/info/family.svg');
+}
+
+.itemBottom3 {
+  background-image: url('/chess/info/computer.svg');
+}
+
+.itemBottom4 {
+  background-image: url('/chess/info/person.svg');
+}
+
+.itemBottom5 {
+  background-image: url('/chess/info/chess-5.svg');
+}
+
+.itemBottom6 {
+  background-image: url('/chess/info/timer.svg');
+}
+

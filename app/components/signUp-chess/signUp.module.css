@@ -1,0 +1,46 @@
+.signUp {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/chess/sign-up/section-bg.svg');
+}
+
+.signUpContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.signUpWrapper {
+  padding: 91px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.signUpText {
+  display: flex;
+  gap: 114px;
+}
+
+.text {
+  max-width: 486px;
+  font-size: 18px;
+  line-height: 144%;
+  color: var(--white);
+}
+
+.signUpBtn {
+  padding: 12px 21px;
+  font-weight: 700;
+  line-height: 186%;
+  text-align: center;
+  border-radius: 6px;
+  background-color: var(--orange);
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.signUpBtn:hover {
+  background-color: var(--hover-orange);
+}

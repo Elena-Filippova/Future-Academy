@@ -1,9 +1,10 @@
-.videoWrapper {
+.videoWrapper { 
   position: relative;
   width: 780px;
 }
 
 .video {
+  position: relative;
   display: block;
   width: 100%;
   border-radius: 20px;
@@ -21,4 +22,28 @@
   border: none;
   cursor: pointer;
   z-index: 10;
+}
+
+.triangleIcon {
+  position: absolute;
+  top: -68px;
+  left: -96px;
+}
+
+.line1Icon {
+  position: absolute;
+  left: -250px;
+  bottom: 24px;
+}
+
+.line2Icon {
+  position: absolute;
+  top: -58px;
+  right: -270px;
+}
+
+.crossIcon {
+  position: absolute;
+  right: -130px;
+  bottom: -81px;
 }
