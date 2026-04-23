@@ -1,0 +1,36 @@
+.teachers {
+  background-position: top 20px center, left bottom 63px, top 50px left 292px, left 50% bottom 45px, right 289px bottom 119px, top 119px right 55px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url('/chess/teachers/points.svg'), url('/chess/teachers/line-1.svg'), url('/chess/teachers/cross.svg'), url('/chess/teachers/triangle.svg'), url('/chess/teachers/circle.svg'), url('/chess/teachers/line-2.svg');
+  background-color: var(--dark-blue);
+}
+
+.teachersContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.teachersWrapper {
+  padding: 62px 0 92px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+
+.teachersTitle {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--white);
+}
+
+.teachersList {
+  display: flex;
+  gap: 20px;
+}
+
+.teachersListItem {
+  width: calc((100% - 60px) / 4);
+}

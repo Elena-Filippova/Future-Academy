@@ -1,0 +1,33 @@
+.card {
+  border-radius: 20px;
+  background-color: var(--white);
+}
+
+.cardWrapper {
+  padding: 30px 20px 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  margin-bottom: 35px;
+  border-radius: 50%;
+  outline: 2px solid var(--orange);
+  outline-offset: 10px;
+}
+
+.cardTitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: var(--black);
+}
+
+.cardDescr {
+  font-weight: 500;
+  line-height: 143%;
+  text-align: center;
+  color: var(--grey);
+}

@@ -39,34 +39,6 @@ export default function CourseContent() {
           </div>
           <p className={styles.coursePrice}>от 4 350 ₽ в месяц</p>
           <button className={styles.courseBtn}>Записаться на курс</button>
-          <Image
-            className={styles.chess1Icon}
-            src='/chess/course/chess-1.svg'
-            width={66.11}
-            height={103.56}
-            alt='Шахматы'
-          />
-          <Image
-            className={styles.chess2Icon}
-            src='/chess/course/chess-2.svg'
-            width={35.1}
-            height={77.59}
-            alt='Шахматы'
-          />
-          <Image
-            className={styles.chess3Icon}
-            src='/chess/course/chess-3.svg'
-            width={40.85}
-            height={66.42}
-            alt='Шахматы'
-          />
-          <Image
-            className={styles.chess4Icon}
-            src='/chess/course/chess-4.svg'
-            width={46.23}
-            height={102.43}
-            alt='Шахматы'
-          />
         </div>
       </div>
     </section>

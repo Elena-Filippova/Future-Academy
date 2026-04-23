@@ -7,6 +7,10 @@
 .courseWrapper {
   padding: 76px 0 72px;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top 58px right 143px, top 58px right 57px, top 215px right 154px, top 192px right;
+  background-image: url('/chess/course/chess-1.svg'), url('/chess/course/chess-2.svg'), url('/chess/course/chess-3.svg'), url('/chess/course/chess-4.svg');
 }
 
 .courseTitle {
@@ -89,28 +93,4 @@
 
 .courseBtn:hover {
   background-color: var(--hover-orange);
-}
-
-.chess1Icon {
-  position: absolute;
-  top: 58px;
-  right: 200px;
-}
-
-.chess2Icon {
-  position: absolute;
-  top: 58px;
-  right: 150px;
-}
-
-.chess3Icon {
-  position: absolute;
-  top: 170px;
-  right: 150px;
-}
-
-.chess4Icon {
-  position: absolute;
-  top: 170px;
-  right: 80px;
 }

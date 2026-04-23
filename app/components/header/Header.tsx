@@ -68,7 +68,7 @@ export default function Header() {
             8 800 950-33-98
           </Link>
           <Link 
-            href='#'
+            href='/pages/auth-page'
             className={styles.user}
           >
             <Image

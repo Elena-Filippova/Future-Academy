@@ -28,6 +28,9 @@ export default function SwiperSchool() {
       <SwiperSlide className={styles.swiperSlide}>
         <Image className={styles.swiperImg} src='/chess/school/slider6.webp' width={314.06} height={210.07} alt='Слайдер 6' />
       </SwiperSlide>
+      <SwiperSlide className={styles.swiperSlide}>
+        <Image className={styles.swiperImg} src='/chess/school/slider3.webp' width={316.6} height={210.07} alt='Слайдер 7'/>
+      </SwiperSlide>
     </Swiper>
   )
 }

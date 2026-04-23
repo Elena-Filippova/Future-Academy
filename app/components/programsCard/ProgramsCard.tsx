@@ -25,7 +25,7 @@ export default function ProgramsCard({ card }: ProgCardProps) {
             height={42}
             alt='Мобильный телефон'
           />
-          <h3 className={styles.cardTitle}>{card.title}</h3>
+          <h4 className={styles.cardTitle}>{card.title}</h4>
         </div>
         <p className={styles.cardDescr}>{card.description}</p>
         <span className={styles.cardDuration}>{card.duration} месяца</span>

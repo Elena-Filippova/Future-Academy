@@ -1,0 +1,24 @@
+.answers {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left 267px top 291px, right 308px top 64px, right 259px bottom 269px;
+  background-image: url('/chess/answers/circle.svg'), url('/chess/answers/triangle.svg'), url('/chess/answers/cross.svg');
+}
+
+.answersContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.answersWrapper {
+  padding: 67px 0 330px 0;
+}
+
+.answersTitle {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 121%;
+  color: var(--black);
+}
