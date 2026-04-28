@@ -27,8 +27,8 @@
 
 .descrImage {
   position: absolute;
+  top: 80px;
   left: -50px;
-  bottom: 40px;
 }
 
 .rightBlock {
@@ -96,6 +96,7 @@
 
 .formBtn {
   padding: 12px 32px;
+  width: 180px;
   font-weight: 700;
   line-height: 186%;
   text-align: center;
