@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import styles from './customSelect.module.css'
+import { useHeaderContext } from '@/app/hooks/useHeaderContext'
 
 const options = ['Дзержинск', 'Нижний Новгород', 'On-line']
 
@@ -10,6 +11,7 @@ export default function CustomSelect() {
   const [isOpen, setIsOpen] = useState(false)
   const [selected, setSelected] = useState(options[0])
   const [hoveredOption, setHoveredOption] = useState<string | null>(null)
+  const { isProgramsPage } = useHeaderContext()
 
   const svgColor = (option: string) => {
     if (hoveredOption === option || selected === option) {
@@ -23,12 +25,12 @@ export default function CustomSelect() {
     <div className={styles.selectBlock}>
       <button onClick={() => setIsOpen(!isOpen)} className={styles.select}>
         <Image 
-          src='/header/location.svg' 
+          src={isProgramsPage ? '/header/location-white.svg' : '/header/location.svg'} 
           width={17} 
           height={20} 
           alt='Локация'
         />
-        <span className={styles.selectedText}>{selected}</span>
+        <span className={`${styles.selectedText} ${isProgramsPage ? styles.selectedTextWhite : ''}`}>{selected}</span>
         <div className={styles.selectArrow}>
           {isOpen ? (
             <svg
@@ -40,7 +42,7 @@ export default function CustomSelect() {
             >
               <path
                 d='M1 1L5 5L9 1'
-                stroke='var(--dark-blue)'
+                stroke={isProgramsPage ? 'var(--white)' : 'var(--dark-blue)'}
                 strokeWidth='2'
                 strokeLinecap='round'
               />
@@ -55,7 +57,7 @@ export default function CustomSelect() {
             >
               <path
                 d='M1 5.41406L5 1.41406L9 5.41406'
-                stroke='var(--dark-blue)'
+                stroke={isProgramsPage ? 'var(--white)' : 'var(--dark-blue)'}
                 strokeWidth='2'
                 strokeLinecap='round'
               />

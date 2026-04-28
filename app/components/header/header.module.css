@@ -2,6 +2,10 @@
   background-color: var(--white);
 }
 
+.headerDark {
+  background-color: var(--dark-blue);
+}
+
 .headerContainer {
   margin: 0 auto;
   padding: 0 50px;
@@ -29,6 +33,10 @@
   color: var(--black);
 }
 
+.linkWhite {
+  color: var(--white);
+}
+
 .phone {
   font-weight: 500;
   font-size: 16px;
@@ -42,4 +50,9 @@
   gap: 9px;
   font-weight: 500;
   color: var(--black);
+}
+
+.phoneWhite,
+.userWhite {
+  color: var(--white);
 }
