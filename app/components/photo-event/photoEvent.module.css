@@ -1,0 +1,28 @@
+.photo {
+  margin-bottom: 331px;
+}
+
+.photoContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.photoWrapper {
+  padding: 74px 0 20px;
+}
+
+.photoTitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 94%;
+  color: var(--black);
+}
+
+.photoDescr {
+  max-width: 979px;
+  font-size: 18px;
+  line-height: 144%;
+  color: var(--black);
+}

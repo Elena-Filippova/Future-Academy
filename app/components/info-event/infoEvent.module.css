@@ -1,0 +1,68 @@
+.infoContainer {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1280px;
+}
+
+.infoWrapper {
+  position: relative;
+  padding: 100px 0 66px 0;
+  display: flex;
+  gap: 50px;
+}
+
+.infoText {
+  padding: 30px 20px 68px 20px;
+  max-width: 310px;
+  font-weight: 500;
+  font-size: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/chess/info/dialog.svg');
+  color: var(--black);
+}
+
+.infoImage {
+  position: absolute;
+  top: 175px;
+  left: -50px;
+}
+
+.infoList {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.listItem {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: calc((780px - 42px) / 3);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: top left;
+}
+
+.listItemTitle {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--black);
+}
+
+.listItemDescr {
+  color: var(--black);
+}
+
+.item1 {
+  background-image: url('/event/info/cross.svg');
+}
+
+.item2 {
+  background-image: url('/event/info/circle.svg');
+}
+
+.item3 {
+  background-image: url('/event/info/triangle.svg');
+}
