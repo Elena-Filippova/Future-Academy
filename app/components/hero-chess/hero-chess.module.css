@@ -41,10 +41,20 @@
 }
 
 .text {
-  padding-top: 7px;
+  position: relative;
   display: flex;
   flex-direction: column;
-  border-top: 2px solid var(--blue);
+}
+
+.text::before,
+.heroPrice::before {
+  position: absolute;
+  content: '';
+  top: -7px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
 }
 
 .heroTextBlock span {
@@ -55,12 +65,14 @@
 .heroPrice,
 .heroText {
   margin-bottom: 33px;
-  padding-top: 7px;
   max-width: 330px;
   font-weight: 700;
   font-size: 28px;
-  border-top: 2px solid var(--blue);
   color: var(--white);
+}
+
+.heroPrice {
+  position: relative;
 }
 
 .heroText {

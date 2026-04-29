@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from './events.module.css'
 
@@ -38,147 +39,169 @@ export default function Events() {
               </button>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item2}`}>
-              <span className={styles.eventsCardSubtitle}>Встреча</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Встреча</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item3}`}>
-              <span className={styles.eventsCardSubtitle}>Встреча</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Встреча</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item4}`}>
-              <span className={styles.eventsCardSubtitle}>Встреча</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Встреча</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item5}`}>
-              <span className={styles.eventsCardSubtitle}>Вебинар</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Вебинар</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.item6}`}>
-              <h4 className={styles.item6Title}>Заголовок мероприятия</h4>
-              <p className={`${styles.cardDescr} ${styles.item6Descr}`}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст, 
-                который будет заинтересовывать пользователя
-              </p>
+              <Link href='/pages/event-page'>
+                <div className={styles.itemBg}>
+                  <div className={styles.itemWrapper}>
+                    <h4 className={styles.item6Title}>Заголовок мероприятия</h4>
+                    <p className={`${styles.cardDescr} ${styles.item6Descr}`}>
+                      Краткий анонс мероприятия в нескольких предложениях. Текст, 
+                      который будет заинтересовывать пользователя
+                    </p>
+                  </div>
+                </div>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item7}`}>
-              <span className={styles.eventsCardSubtitle}>Встреча</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Встреча</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item8}`}>
-              <span className={styles.eventsCardSubtitle}>Встреча</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Встреча</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item8}`}>
-              <span className={styles.eventsCardSubtitle}>Встреча</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Встреча</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
             <li className={`${styles.eventsListItem} ${styles.eventsCard} ${styles.item9}`}>
-              <span className={styles.eventsCardSubtitle}>Встреча</span>
-              <div className={styles.eventsCardTitleBlock}>
-                <Image
-                  src='/events/mobile.svg'
-                  width={26.04}
-                  height={42}
-                  alt='Мобильный телефон'
-                />
-                <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
-              </div>
-              <p className={styles.cardDescr}>
-                Краткий анонс мероприятия в нескольких предложениях. Текст,
-                который будет заинтересовывать пользователя
-              </p>
-              <span className={styles.cardDate}>16 ноября 2021</span>
+              <Link href='/pages/event-page'>
+                <span className={styles.eventsCardSubtitle}>Встреча</span>
+                <div className={styles.eventsCardTitleBlock}>
+                  <Image
+                    src='/events/mobile.svg'
+                    width={26.04}
+                    height={42}
+                    alt='Мобильный телефон'
+                  />
+                  <h4 className={styles.cardTitle}>Заголовок мероприятия</h4>
+                </div>
+                <p className={styles.cardDescr}>
+                  Краткий анонс мероприятия в нескольких предложениях. Текст,
+                  который будет заинтересовывать пользователя
+                </p>
+                <span className={styles.cardDate}>16 ноября 2021</span>
+              </Link>
             </li>
           </ul>
         </div>

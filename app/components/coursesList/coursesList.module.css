@@ -1,5 +1,4 @@
 .coursesList {
-  position: relative;
   padding-bottom: 15px;
   margin-bottom: 38px;
   display: flex;
@@ -8,20 +7,21 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
-.coursesList::after {
+.coursesListLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.coursesListLink.active::after {
   position: absolute;
   content: '';
-  bottom: 0;
+  top: 60px;
   left: 0;
   width: 160px;
   height: 4px;
   background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
-}
-
-.coursesListLink {
-  display: flex;
-  align-items: center;
-  gap: 16px;
 }
 
 .linkDescr {
