@@ -217,7 +217,7 @@ export default function Footer() {
                   <Link href='#'>Мероприятия</Link>
                 </li>
                 <li>
-                  <Link href='#'>Новости</Link>
+                  <Link href='/pages/news-page'>Новости</Link>
                 </li>
                 <li>
                   <Link href='#'>База знаний</Link>
