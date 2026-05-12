@@ -211,10 +211,10 @@ export default function Footer() {
               </h4>
               <ul className={styles.footerList}>
                 <li>
-                  <Link href='#'>Об академии</Link>
+                  <Link href='/pages/about-page'>Об академии</Link>
                 </li>
                 <li>
-                  <Link href='#'>Мероприятия</Link>
+                  <Link href='/pages/events-page'>Мероприятия</Link>
                 </li>
                 <li>
                   <Link href='/pages/news-page'>Новости</Link>
